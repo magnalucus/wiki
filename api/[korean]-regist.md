@@ -6,14 +6,13 @@
 여러가지 프로그램을 동시에 다루는 것은 쉽지 않으며, 이로인해 블록체인을 접목하기 쉽지 않기에 이를 쉽게 사용하기 위한 ENS API 제작 프로젝트를 시작한다.
 
 
-## 개발
 
-### API client 등록하기
+## API client 등록하기
 
 https://api.ethersocial.network/request/ 에서 자신의 서비스를 등록한 후 api key를 생성, 저장한다.
 
 
-### ESN 주소 등록하기
+## ESN 주소 등록하기
 
 https://api.ethersocial.network/api?module=registaccount?account=$account&apikey=$apikey
 
@@ -32,7 +31,7 @@ Response: 200 OK, application/json
 ```
 
 
-### 등록된 주소의 입금내역 확인하기
+## 등록된 주소의 입금내역 확인하기
 
 https://api.ethersocial.network/api?module=account&action=txlist&account=$account&apikey=$apikey
 
@@ -51,6 +50,3 @@ Response: 200 OK, application/json
 ```javascript
 {"account":"0x64A2a64c80859f39f3329e2009bbdfCea04414ed","error":null, "txlist":[{"txhash":"0x2ca17681a7c62c45c3b5138e3dee0d9a756088ac08dd7aee04722d26677c7bf9","value","110000000000000000"},{"txhash":"0x04f5f1462c92b9c145b070bde6974d30d4be2da564e52b96a400e4fbfd3444b7","value","3520000000000000000"}]}
 ```
-
-
-
