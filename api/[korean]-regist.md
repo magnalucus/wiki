@@ -5,7 +5,6 @@
 
 
 
-
 ## API client 등록하기
 
 https://api.ethersocial.network/request/ 에서 자신의 서비스를 등록한 후 api key를 생성, 저장한다.
@@ -31,9 +30,10 @@ Response: 200 OK, application/json
 ```javascript
 {"account":"0x64A2a64c80859f39f3329e2009bbdfCea04414ed","error":null}
 
-
-
 ```
+
+
+
 
 
 ## 등록된 주소의 입금내역 확인하기
